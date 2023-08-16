@@ -1,0 +1,21 @@
+[INFO ] [2023-08-16 16:36:46,672] Register - step_01: Navigator to 'Register' page
+[INFO ] [2023-08-16 16:36:47,742] Register - step_02: Click To radio button with value is 'Female'
+[INFO ] [2023-08-16 16:36:48,027] Register - step_03: Enter to firstname textbox with value is 'automation'
+[INFO ] [2023-08-16 16:36:48,095] Register - step_04: Enter to lastname textbox with value is '1'
+[INFO ] [2023-08-16 16:36:48,181] Register - step_05: Select to DateOfBirthDay dropdown with value is '22'
+[INFO ] [2023-08-16 16:36:48,475] Register - step_06: Select to DateOfBirthMonth dropdown with value is 'October'
+[INFO ] [2023-08-16 16:36:48,775] Register - step_07: Select to DateOfBirthYear dropdown with value is '10'
+[INFO ] [2023-08-16 16:36:49,107] Register - step_08: Enter to email textbox with value is 'afc6052@mail.vn'
+[INFO ] [2023-08-16 16:36:49,171] Register - step_09: Click To checkbox button with value is 'Newsletter:'
+[INFO ] [2023-08-16 16:36:49,209] Register - step_10: Enter to correctpass textbox with value is '123456'
+[INFO ] [2023-08-16 16:36:49,263] Register - step_11: Enter to confirmpass textbox with value is '123456'
+[INFO ] [2023-08-16 16:36:49,321] Register - step_12: click to register button
+[INFO ] [2023-08-16 16:36:50,182] Register - step_13: verify register success message is displayed
+[INFO ] [2023-08-16 16:36:50,273] Login - step_01: Navigator to 'login' page
+[INFO ] [2023-08-16 16:36:50,787] Login - step_02: Enter to email textbox with value is 'afc6052@mail.vn'
+[INFO ] [2023-08-16 16:36:50,951] Login - step_03: Enter to pass textbox with value is '123456'
+[INFO ] [2023-08-16 16:36:51,086] Login - step_04: click to login button
+[INFO ] [2023-08-16 16:36:51,819] Login - step_05: verify 'my account' link is displayed
+[INFO ] [2023-08-16 16:36:51,956] Login - step_01: navigative 'my account' page
+[INFO ] [2023-08-16 16:36:52,460] Login - step_02: verify 'Customer infor' page is displayed
+[INFO ] [2023-08-16 16:36:52,556] Login - step_03: verify 'Firstname' value is correctly

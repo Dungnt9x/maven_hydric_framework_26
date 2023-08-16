@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Wordpress-Admin">
+  
+  	<listeners>
+  	
+  	<listener class-name="commons.MethodListener"></listener>
+  	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+
+  	</listeners>
+  	
+  	<parameter name="urlAdmin" value="http://localhost:86/wp-admin/users.php" />
+  	<parameter name="urlUser" value="http://localhost:86" />
+  	
+	<test name="Run on CHROME">
+	<parameter name="browser" value="Chrome"/>
+	<classes>
+	  <!--Trigger common register run first -->
+      <class name="com.wordpress.admin.Post_01_Creat_Read_Update_Delete_search" />
+    </classes>
+  </test> 
+
+
+  
+</suite>
